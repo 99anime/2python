@@ -4,3 +4,4 @@ app=Flask(__name__)
 def anime():
  return render_template("anime.html");
  if __name__=='main':
+  app.run(debug=True)
